@@ -35,15 +35,6 @@ button {
     border-radius: 10px;
 }
 
-.error-message,
-.size-error {
-    background-color: red;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    display: none;
-}
-
 button {
     font-size: 18px;
     font-weight: bold;
@@ -55,8 +46,22 @@ button:hover {
     cursor: pointer;
 }
 
-.a-maior {
+.success-message {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.error-message {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.a-bigger {
     color: red;
-    border: red;
+    border: 2px solid red;
     outline-color: red;
 }
