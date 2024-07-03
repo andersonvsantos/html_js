@@ -1,7 +1,6 @@
 const form = document.getElementById('formNumbers');
 const fieldA = document.getElementById('fieldA');
 const fieldB = document.getElementById('fieldB');
-const button = document.getElementById('submitBtn');
 const messageField = document.getElementById('message');
 
 const successMessage = 'Fomulário enviado com sucesso!';
